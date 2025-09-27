@@ -1,0 +1,111 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color:#2e2f42;
+    background-color: FFFFFF;
+    font-weight: 400;
+}
+ul,ol{
+list-style-type: none;
+}
+a{
+    color: currentColor;
+    text-decoration: none;
+}
+h1 {
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+}
+p {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* header */
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.logo-part {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
+.nav-link{
+        font-weight: 500;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        list-style: none;
+}
+.nav-link:hover,.nav-link:focus{
+    color: #404bbf;
+}
+
+.address-link{
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+.address-link:hover,.address-link:focus{
+    color: #404bbf;
+}
+
+.introduction{
+    background: #2e2f42;
+}
+/* introduction */
+
+.introduction-button{
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        background: #4d5ae5;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.04em;
+        color: #fff;
+        cursor: pointer;
+}
+.introduction-button:hover{
+    background: #404bbf; 
+}
+/* footer */
+footer{
+    background: #2e2f42;
+}
+.footer-logo-part{
+color: #f4f4fd;
+}
+.footer-text{
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+}
+
