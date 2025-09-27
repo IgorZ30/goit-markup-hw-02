@@ -2,8 +2,8 @@ body{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 24px;
-    color:#2e2f42;
-    background-color: FFFFFF;
+    color:#434455;
+    background-color: #FFFFFF;
     font-weight: 400;
 }
 ul,ol{
@@ -13,27 +13,8 @@ a{
     color: currentColor;
     text-decoration: none;
 }
-h1 {
-    font-size: 56px;
-    line-height: 107%;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
-}
-h2 {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 111%;
-    letter-spacing: 0.02em;
-    text-align: center;
-}
-h3 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 120%;
-    letter-spacing: 0.02em;
-}
-p {
+
+.main-text{
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
@@ -67,7 +48,9 @@ p {
 .nav-link:hover,.nav-link:focus{
     color: #404bbf;
 }
-
+.address{
+    font-style: normal;
+}
 .address-link{
         line-height: 150%;
         letter-spacing: 0.02em;
@@ -76,29 +59,71 @@ p {
 .address-link:hover,.address-link:focus{
     color: #404bbf;
 }
-
 .introduction{
     background: #2e2f42;
 }
 /* introduction */
-
+.introduction-title {
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
 .introduction-button{
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         background: #4d5ae5;
+        font-family: "Roboto", sans-serif;
         font-weight: 500;
-        font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.04em;
         color: #fff;
-        cursor: pointer;
 }
-.introduction-button:hover{
+.introduction-button:hover,.introduction-button:focus{
     background: #404bbf; 
+}
+/* advantages */
+.advantages-title{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: 0.02em;
 }
 /* team section */
 .team-section{
-    background-color: #F4F4FD;
+    background-color:#f4f4fd;;
 }
+.team-main-title{
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 111%;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+.team-item{
+background-color: #FFFFFF;
+}
+/* section portfolio */
+.portfolio-main-title{
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 111%;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;    
+}
+.portfolio-title{
+font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+}
+.portfolio-image{
+width: 360px;
+}
+
 /* footer */
 footer{
     background: #2e2f42;
@@ -112,4 +137,9 @@ color: #f4f4fd;
         letter-spacing: 0.02em;
         color: #f4f4fd;
 }
-
+.team{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+}
