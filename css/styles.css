@@ -95,6 +95,10 @@ p {
 .introduction-button:hover{
     background: #404bbf; 
 }
+/* team section */
+.team-section{
+    background-color: #F4F4FD;
+}
 /* footer */
 footer{
     background: #2e2f42;
